@@ -1,16 +1,9 @@
 # DAPSCoin-Masternode Setup
-If you want the commands just to UPDATE your CURRENT MN:
-```
-wget https://raw.githubusercontent.com/nashsclay/CampusCoin/master/update_current_cc.sh
-chmod +x update_current_cc.sh  
-./update_current_cc.sh 
-```
-
 If you just want the commands for a NEW VPS setup:
 ```
-wget https://raw.githubusercontent.com/nashsclay/CampusCoin/master/campuscoin_mn.sh 
-chmod +x campuscoin_mn.sh  
-./campuscoin_mn.sh 
+wget https://raw.githubusercontent.com/nashsclay/DAPSCoin_Masternode/master/dapscoin_mn.sh 
+chmod +x dapscoin_mn.sh  
+./dapscoin_mn.sh 
 ```
 
 This DAPSCoin-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
@@ -97,9 +90,9 @@ Please copy and paste the following commands into you connection with your serve
 NOTE: Don't click on the links as that will only show you code. There is no need to do so.
 
 ```
-wget https://raw.githubusercontent.com/nashsclay/CampusCoin/master/campuscoin_mn.sh 
-chmod +x campuscoin_mn.sh  
-./campuscoin_mn.sh 
+wget https://raw.githubusercontent.com/nashsclay/DAPSCoin_Masternode/master/dapscoin_mn.sh
+chmod +x dapscoin_mn.sh  
+./dapscoin_mn.sh 
 ```
 You will need to copy and paste your masternode private key into putty when it asks. Then press Enter, when this is done, go back to your wallet, unlock your wallet in Settings. Once unlocked, start your masternode. Go to the Masternode tab, and try to start it, if it fails, try the command below in the NOTE. Once started go back to your VPS. type in
 
