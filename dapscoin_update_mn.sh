@@ -15,6 +15,7 @@ cd master_linux-v1.0.1.3
 sudo rm ../master_linux-v1.0.1.3.zip
 sudo mv dapscoind dapscoin-cli dapscoin-tx /usr/local/bin
 cd /usr/local/bin/
+chmod +x dapscoind dapscoin-cli dapscoin-tx
 systemctl start DAPSCoin.service
 cd ~
 echo "Masternode restarted. Any errors about files not existing is ok."
