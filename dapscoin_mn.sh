@@ -8,7 +8,7 @@ COIN_DAEMON='dapscoind'
 COIN_CLI='dapscoin-cli'
 COIN_TX='dapscoin-tx'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/DAPSCoin/DAPSCoin/releases/download/1.0/dapscoin_linux-v1.0.0.zip'
+COIN_TGZ='https://github.com/DAPSCoin/DAPSCoin/releases/download/1.0.1/master_linux-v1.0.1.3.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='DAPSCoin'
 COIN_PORT=53572
@@ -29,7 +29,9 @@ function download_node() {
   compile_error
   unzip $COIN_ZIP >/dev/null 2>&1
   #cd bin #verify
-  rm cc-qt
+  cd master_linux-v1.0.1.3
+  sudo mv dapscoind dapscoin-cli dapscoin-tx /usr/local/bin
+  cd /usr/local/bin/
   chmod +x $COIN_DAEMON $COIN_CLI $COIN_TX 
   cp $COIN_DAEMON $COIN_CLI $COIN_TX $COIN_PATH
   cd ~ >/dev/null
