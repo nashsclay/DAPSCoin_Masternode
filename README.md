@@ -7,9 +7,9 @@ chmod +x dapscoin_mn.sh
 ```
 Commands below are for UPDATE ONLY:
 ```
-wget https://raw.githubusercontent.com/nashsclay/DAPSCoin_Masternode/master/dapscoin_update_mn2.sh
-chmod +x dapscoin_update_mn2.sh
-./dapscoin_update_mn2.sh
+wget https://raw.githubusercontent.com/nashsclay/DAPSCoin_Masternode/master/dapscoin_update_mn3.sh
+chmod +x dapscoin_update_mn3.sh
+./dapscoin_update_mn3.sh
 ```
 
 This DAPSCoin-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
