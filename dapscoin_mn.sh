@@ -29,7 +29,6 @@ function download_node() {
   compile_error
   unzip $COIN_ZIP >/dev/null 2>&1
   #cd bin #verify
-  cd master_linux-v1.0.3.4
   sudo mv dapscoind dapscoin-cli dapscoin-tx /usr/local/bin
   cd /usr/local/bin/
   chmod +x $COIN_DAEMON $COIN_CLI $COIN_TX 
