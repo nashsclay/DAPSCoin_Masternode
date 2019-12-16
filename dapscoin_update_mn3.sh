@@ -8,10 +8,10 @@ echo
 cd /usr/local/bin/
 sudo apt-get install unzip
 echo "Script may appear frozen for a few seconds. This is normal."
-wget -c https://github.com/DAPSCoin/DAPSCoin/releases/download/1.0.3/master_linux-v1.0.3.4.zip
+wget -c https://github.com/DAPSCoin/DAPSCoin/releases/download/1.0.4/master_linux-v1.0.4.6.zip
 sudo rm dapscoind dapscoin-cli dapscoin-tx
-sudo unzip master_linux-v1.0.3.4.zip
-sudo rm ../master_linux-v1.0.3.4.zip
+sudo unzip master_linux-v1.0.4.6.zip
+sudo rm ../master_linux-v1.0.4.6.zip
 sudo mv dapscoind dapscoin-cli dapscoin-tx /usr/local/bin
 cd /usr/local/bin/
 chmod +x dapscoind dapscoin-cli dapscoin-tx
